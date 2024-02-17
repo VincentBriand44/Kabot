@@ -1,4 +1,5 @@
 import { SapphireClient } from "@sapphire/framework";
+import '@sapphire/plugin-hmr/register';
 import { GatewayIntentBits } from "discord.js";
 import { config } from "dotenv";
 config();

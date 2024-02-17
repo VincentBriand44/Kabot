@@ -2,7 +2,7 @@ import { ApplyOptions } from '@sapphire/decorators';
 import { Command } from '@sapphire/framework';
 import { guildIds } from '../index.js';
 
-@ApplyOptions<Command.Options>({
+ApplyOptions<Command.Options>({
 	description: 'A basic slash command'
 })
 export class UserCommand extends Command {

@@ -2,7 +2,6 @@ import { isMessageInstance } from '@sapphire/discord.js-utilities';
 import { Command } from '@sapphire/framework';
 
 export class PingCommand extends Command {
-  
   public constructor(context: Command.LoaderContext, options: Command.Options) {
     super(context, { ...options });
   }
