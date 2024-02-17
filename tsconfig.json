@@ -1,5 +1,7 @@
 {
-  "extends": "@sapphire/ts-config/decorators",
+  "extends": [
+    "@sapphire/ts-config"
+  ],
   "compileOnSave": true,
   "compilerOptions": {
     "outDir": "dist",
